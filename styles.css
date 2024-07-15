@@ -1,0 +1,171 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+  background-color: rgb(72, 188, 218);
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+h1 {
+  font-family: "Baskervville SC", serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+p{
+  color: grey;
+}
+
+/*Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Baskervville SC";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.navbar-link{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
+/* DownLoad Buttons */
+
+.download-button {
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 45%;
+  transform: rotate(20deg);
+  z-index: -1;
+}
+
+/* Call To Action Section CTA */
+#cta {
+  background-color: rgb(72, 188, 218);
+  padding: 7% 15%;
+  text-align: center;
+}
+.cta-heading {
+  font-family: "Baskervville SC";
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+/* Media Query Section */
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+/* Feature section */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(140, 175, 43);
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover{
+  color:rgb(72, 188, 218);
+}
+
+/* Testimonials Section */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: rgb(72, 188, 218);
+}
+
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 25%;
+  border-radius:50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: rgb(72, 188, 218);
+  text-align: center;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; 
+  border: none;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: transparent; 
+}
+
+/* Pricing Section*/
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header {
+  color: black;
+}
+
+.pricign-column{
+  padding: 3% 2%;
+}
+
